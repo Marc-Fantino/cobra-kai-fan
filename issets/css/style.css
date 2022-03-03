@@ -1,0 +1,66 @@
+.senseidroite{
+    padding: 30px;
+    border: 3px solid orangered;
+    font-weight :bold;
+    text-align: center;
+    margin-left: 20px;
+    background-color:white;
+    color:  orangered;
+}
+
+.senseigauche{
+    padding: 30px;
+    border: 3px solid yellow;
+    font-weight :bold;
+    text-align: center;
+    margin-right: 20px;
+    background-color:black;
+    color: yellow;
+}
+.senseigauche img{
+    border-radius: 50%;
+ }
+
+.tbphoto{
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+.tbphoto img{
+  width : 200px ;
+  padding: 40px;
+  border: 2px solid black;
+  background-color: rgb(236, 253, 2);
+}
+ 
+.theme-cobra{
+ background-color:black;
+ color: yellow;
+}
+.theme-miyagi{
+    background-color:rgb(255, 255, 255);
+    color: rgb(255, 136, 0);
+   }
+.dojo{
+color:yellow;
+border : 2px solid yellow;
+background-color: black;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 30px;
+}
+
+.test{
+    display: flex;
+    justify-items:end;
+    color:yellow;
+}
+.test video{
+    border : 2px solid yellow;
+}
+
+.kata6{
+background-image: url(../img/cobra-kai-1024x576.jpg);
+background-size: cover;
+}
